@@ -121,4 +121,14 @@
         android:summary="@string/cellular_security_summary"
         android:order="30"
         settings:controller="com.android.settings.network.CellularSecurityPreferenceController"/>
+
+    <ListPreference
+        android:key="connectivity_check_settings"
+        android:title="@string/connectivity_check_title"
+        android:summary="@string/connectivity_check_summary"
+        android:icon="@drawable/ic_settings_language"
+        android:order="30"
+        android:entries="@array/connectivity_check_entries"
+        android:entryValues="@array/connectivity_check_values" />
+
 </PreferenceScreen>
