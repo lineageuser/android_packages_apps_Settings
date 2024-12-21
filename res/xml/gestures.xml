@@ -66,7 +66,7 @@
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
         settings:keywords="@string/keywords_system_navigation" />
 
-    <Preference
+    <SwitchPreferenceCompat
         android:key="swipe_to_screenshot"
         android:title="@string/three_finger_gesture"
         android:summary="@string/three_finger_gesture_summary"
